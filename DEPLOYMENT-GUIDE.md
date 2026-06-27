@@ -20,7 +20,7 @@ free static hosting). No credit card. No monthly fees. No AI APIs.
 
 1. Go to **https://supabase.com** → click **Start your project** → sign in with GitHub.
 2. Click **New project**.
-   - **Name:** GOSA
+   - **Name:** GOSA 
    - **Database Password:** click *Generate a password* and **save it somewhere safe**.
    - **Region:** pick the one closest to your school.
    - Click **Create new project** and wait ~2 minutes for it to finish provisioning.

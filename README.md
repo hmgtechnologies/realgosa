@@ -7,8 +7,8 @@ Welcome to the official, enterprise-grade School Connect management platform gen
 This fully-featured platform adapts to traditional and modern build deployments. It comes built-in with features like offline access, push notifications, row-level security, and a beautiful UI tailored to your specific branding choices.
 
 **School Motto:** Excellence in Learning and Character
-**Branding Theme:** theme2 (Primary: #1c72e7, Accent: #5e2174)
-**Typography:** Roboto
+**Branding Theme:** theme6 (Primary: #4e92e3, Accent: #486b64)
+**Typography:** Slabo 27px
 
 ---
 
@@ -53,17 +53,39 @@ Your platform is pre-configured with the following modules:
 - **Classes**
 - **Subjects**
 - **Attendance**
-- **Results / Scores**
-- **Timetable**
-- **Scheme of Work**
-- **CBT / Online Exams**
 - **AI Question Prompts**
+- **Entrance & Assessments**
+- **Results / Scores**
+- **Marketing Flyer**
 - **Report Cards (flexible)**
+- **Analytics Dashboard**
+- **Admin Data Console**
+- **Storage Manager**
+- **Approvals**
 - **Timetable Generator**
 - **QR Check-in**
-- **Assignments / Homework**
+- **Surveys & Forms**
+- **Settings (2FA · Language · A11y)**
+- **Fees & Payments**
+- **Timetable**
+- **CBT / Online Exams**
+- **Scheme of Work**
+- **Messaging (WA/Email)**
+- **Announcements**
+- **Events & Calendar**
+- **Photo & Video Gallery**
 - **Library**
 - **Digital Library**
+- **Assignments / Homework**
+- **Parent–Child Mapping**
+- **Digital ID Cards**
+- **Directory**
+- **Departments & Offices**
+- **Results Broadcast**
+- **Complaints & Grievance**
+- **Leave Management**
+- **Visitor Management**
+- **About the Developer**
 - **Conduct / Behaviour**
 - **Health / Clinic**
 - **Promotion / Graduation**
@@ -72,14 +94,8 @@ Your platform is pre-configured with the following modules:
 - **Career & Placement**
 - **Lesson Plans & Curriculum**
 - **Behaviour & PBIS Points**
-- **Substitute / Cover**
 - **Special Education / Support**
-- **Entrance & Assessments**
-- **Storage Manager**
-- **Analytics Dashboard**
-- **Approvals**
-- **Admin Data Console**
-- **Settings (2FA · Language · A11y)**
+- **Substitute / Cover**
 - **Admissions & Enrollment**
 - **Salary & Payslips**
 - **Payroll Register**
@@ -87,48 +103,31 @@ Your platform is pre-configured with the following modules:
 - **Staff Bonuses**
 - **Staff Appraisals**
 - **Hostel / Boarding**
-- **Alumni Network**
 - **Inventory & Assets**
-- **Certificates & Documents**
+- **Alumni Network**
 - **Custom Document Builder**
 - **Advanced Fleet GPS**
 - **Facility Booking**
 - **Compliance & Audit**
-- **Audit / Activity Log**
 - **Academic Records & Broadsheets**
-- **About the Developer**
 - **Student Diary**
-- **Surveys & Forms**
-- **Announcements**
-- **Events & Calendar**
-- **Messaging (WA/Email)**
 - **In-App Inbox**
-- **Complaints & Grievance**
-- **Results Broadcast**
 - **Voting & Polls**
 - **PTA Meeting Scheduler**
 - **Front Desk / Dispatch**
 - **IT / Help Desk**
 - **Menu / Meal Planner**
-- **Photo & Video Gallery**
 - **E-Resources / Notes**
 - **Birthdays**
-- **Digital ID Cards**
-- **Marketing Flyer**
-- **Reports & Export**
-- **Directory**
-- **Departments & Offices**
-- **Parent–Child Mapping**
 - **School Calendar**
 - **Lost & Found**
+- **Reports & Export**
 - **Book Reservation**
-- **Fees & Payments**
 - **School Finance**
-- **Leave Management**
-- **Visitor Management**
 - **Transport / Bus**
 - **Cafeteria & Meals**
 - **Scholarships & Aid**
+- **Fundraising & Donations**
 - **Online Fee Payments**
 - **Grading Rubrics**
 - **Academic Transcripts**

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Departments &amp; Offices • God of Seed Academy</title>
-<meta name="description" content="God of Seed Academy — Departments &amp; Offices. Free school management platform by HMG Concepts.">
+<title>Fundraising &amp; Donations • God of Seed Academy</title>
+<meta name="description" content="God of Seed Academy — Fundraising &amp; Donations. Free school management platform by HMG Concepts.">
 <meta name="keywords" content="God of Seed Academy, school management, GOSA , HMG Concepts">
 <meta name="theme-color" content="#4e92e3">
 <link rel="icon" type="image/png" href="assets/img/logo.png">
@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<meta property="og:title" content="Departments &amp; Offices • God of Seed Academy">
+<meta property="og:title" content="Fundraising &amp; Donations • God of Seed Academy">
 <meta property="og:description" content="God of Seed Academy — Free school management by HMG Concepts">
 <meta property="og:image" content="assets/img/og-cover.svg">
 <meta property="og:type" content="website">
@@ -377,7 +377,7 @@ body{font-family:var(--font)!important;background:#f8fafc}
   <main class="app-main">
     <header class="app-topbar">
       <button class="mobile-toggle" onclick="App.toggleSidebar()" title="Menu">☰</button>
-      <h1 class="app-page-title">Departments &amp; Offices</h1>
+      <h1 class="app-page-title">Fundraising &amp; Donations</h1>
       <div style="margin-left:auto;display:flex;align-items:center;gap:12px">
         
         <button class="btn btn-sm btn-outline" onclick="if(window.Super)Super.chatbot.explainPage()" title="About this page">ℹ️ Help</button>
@@ -388,13 +388,13 @@ body{font-family:var(--font)!important;background:#f8fafc}
     </header>
     <div class="app-content">
       
-      <p style="color:var(--gray-600);margin-bottom:18px">Per-department coordination, resource management.</p>
+      <p style="color:var(--gray-600);margin-bottom:18px">Run campaigns, log donor pledges &amp; gifts, generate thank-you receipts (Blackbaud/FreshSchools parity).</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px">
-        <button class="btn btn-primary" onclick="CRUD.openForm('departments')" data-staff-only>+ Add new</button>
-        <button class="btn btn-outline" onclick="CRUD.renderList('departments')">↻ Refresh</button>
-        <button class="btn btn-outline" onclick="CRUD.exportCSV('departments')" data-staff-only>⬇ Export CSV</button>
-        <button class="btn btn-outline" onclick="CRUD.exportPDF('departments')" data-staff-only>📄 Export PDF</button>
-        <button class="btn btn-outline" onclick="CRUD.importCSV('departments')" data-admin-only>⬆ Import CSV</button>
+        <button class="btn btn-primary" onclick="CRUD.openForm('donations')" data-staff-only>+ Add new</button>
+        <button class="btn btn-outline" onclick="CRUD.renderList('donations')">↻ Refresh</button>
+        <button class="btn btn-outline" onclick="CRUD.exportCSV('donations')" data-staff-only>⬇ Export CSV</button>
+        <button class="btn btn-outline" onclick="CRUD.exportPDF('donations')" data-staff-only>📄 Export PDF</button>
+        <button class="btn btn-outline" onclick="CRUD.importCSV('donations')" data-admin-only>⬆ Import CSV</button>
         
         
         
@@ -402,8 +402,8 @@ body{font-family:var(--font)!important;background:#f8fafc}
         
       </div>
       
-      <div class="table-wrap"><table id="departments-table"><thead><tr><th>Loading…</th></tr></thead><tbody><tr><td><span class="pulse">Loading…</span></td></tr></tbody></table></div>
-      <script>document.addEventListener('DOMContentLoaded',function(){ if(window.CRUD) CRUD.renderList('departments'); });</script>
+      <div class="table-wrap"><table id="donations-table"><thead><tr><th>Loading…</th></tr></thead><tbody><tr><td><span class="pulse">Loading…</span></td></tr></tbody></table></div>
+      <script>document.addEventListener('DOMContentLoaded',function(){ if(window.CRUD) CRUD.renderList('donations'); });</script>
     </div>
     <footer style="padding:20px 28px;border-top:1px solid var(--gray-200);font-size:0.82rem;color:var(--gray-500);text-align:center">
       © 2026 God of Seed Academy · Built by <a href="https://cssadewale.pages.dev" target="_blank" rel="noopener">Adewale Samson Adeagbo</a> · Powered by <a href="https://hmgconcepts.pages.dev/" target="_blank" rel="noopener">HMG Concepts</a> · <a href="developer.html">About the developer</a>
