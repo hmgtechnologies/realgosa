@@ -1,6 +1,6 @@
 
 /* Pages that must NEVER force a redirect to login (public + the login page itself). */
-const PUBLIC_PAGES = ['login','index','about','contact','admissions','register','signup',''];
+const PUBLIC_PAGES = ['login','index','about','contact','apply','register','signup',''];
 
 function currentPage() {
   return (location.pathname.split('/').pop() || 'index.html').replace('.html','');
@@ -64,13 +64,13 @@ const App = {
 
   applyRoleDashboard(role, profile) {
     const name = (profile && (profile.full_name || profile.email)) || 'User';
-    const prettyRole = String(role || 'user').replace(/_/g,' ').replace(/w/g, c => c.toUpperCase());
+    const prettyRole = String(role || 'user').replace(/_/g,' ').replace(/\b\w/g, c => c.toUpperCase());
     ['user-display-name','dash-user-name'].forEach(id => { const el=document.getElementById(id); if(el) el.textContent=name; });
     ['user-display-role','dash-user-role'].forEach(id => { const el=document.getElementById(id); if(el) el.textContent=prettyRole; });
     const groups = document.querySelectorAll('[data-dash-role]');
     if (groups.length) {
       groups.forEach(el => {
-        const roles = (el.getAttribute('data-dash-role')||'').split(/s+/);
+        const roles = (el.getAttribute('data-dash-role')||'').split(/\s+/);
         const show = roles.includes(role) || (role === 'teacher' && roles.includes('staff')) || (role === 'super_admin' && roles.includes('admin'));
         el.style.display = show ? '' : 'none';
       });
@@ -92,7 +92,7 @@ const App = {
   applyRoleNav(role) {
     const aliases = { teacher:'staff', super_admin:'admin' };
     document.querySelectorAll('[data-role-allow]').forEach(el => {
-      const allow = (el.getAttribute('data-role-allow') || '').split(/s+/).filter(Boolean);
+      const allow = (el.getAttribute('data-role-allow') || '').split(/\s+/).filter(Boolean);
       const ok = allow.includes(role) || allow.includes(aliases[role]);
       el.style.display = ok ? '' : 'none';
     });
